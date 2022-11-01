@@ -1,0 +1,15 @@
+---
+title: "Test_markdown"
+output: html_document
+---
+```{r}
+library(terra)
+library(here)
+jan<-terra::rast(here("wc2.1_5m_tavg", "wc2.1_5m_tavg_01.tif"))
+
+plot(jan)
+```
+```{r}
+# ctrl + alt + i
+# new code chunk
+```
